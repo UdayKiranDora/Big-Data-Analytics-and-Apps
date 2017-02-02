@@ -9,7 +9,7 @@ object SparkWordCount {
 
   def main(args: Array[String]) {
 
-    System.setProperty("hadoop.home.dir","C:\\Users\\Manikanta\\Documents\\UMKC Subjects\\PB\\hadoopforspark");
+    System.setProperty("hadoop.home.dir","C:\\Users\\RANDOM\\Documents\\hadoop");
 
     val sparkConf = new SparkConf().setAppName("SparkWordCount").setMaster("local[*]")
 
@@ -21,7 +21,7 @@ object SparkWordCount {
 
     val output=wc.reduceByKey(_+_)
 
-    output.saveAsTextFile("output")
+    output.saveAsTextFile("output1")
 
     val o=output.collect()
 
