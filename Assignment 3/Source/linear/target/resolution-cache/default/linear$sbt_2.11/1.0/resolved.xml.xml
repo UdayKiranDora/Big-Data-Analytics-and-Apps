@@ -4,7 +4,7 @@
 		module="linear$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170208220748"
+		publication="20170209181411"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

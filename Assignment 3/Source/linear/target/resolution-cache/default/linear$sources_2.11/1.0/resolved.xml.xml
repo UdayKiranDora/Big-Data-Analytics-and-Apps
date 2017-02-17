@@ -4,7 +4,7 @@
 		module="linear$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170208220757"
+		publication="20170209181413"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
